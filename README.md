@@ -30,6 +30,15 @@ The **Inject DLL** button remains disabled until the process, architecture, mani
 5. Select the DLL and confirm that the status reads **HOVERMODS VERIFIED**.
 6. Use **Inject DLL**.
 
+## Trusted DLLs List
+
+HMV Injector can only load trusted DLLs, but you are free to use any other injector to load DLLs, including mine.
+
+
+### DragonSword Awakening
+- `DSTool.ABlock.dll`<br>*(Prevent Abnormal gameplay to close the game)* INCLUDED
+- `DSTool.dll`<br>*(MEGA CHEAT All in One)* Available [Here](https://github.com/lengkonglovelife/DStools-inject/releases)
+
 ## Antivirus Notice
 
 Injection APIs are also used by malicious software, so heuristic detections remain possible, especially for unsigned binaries.
