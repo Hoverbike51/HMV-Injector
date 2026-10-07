@@ -19,7 +19,18 @@ A .NET 8 Windows injector using a Control Panel design. It only accepts DLLs lis
 - Local timestamped `HoverMods.DLLInjector.log` file;
 - HoverMods Vault branding and a subtle optional visual enhancement.
 
-The **Inject DLL** button remains disabled until the process, architecture, manifest, and exact hash have been validated.
+The **Inject DLL** button remains disabled until the process, architecture, manifest, and exact hash have been validated.<br>
+
+## Requirements
+
+It need **.NET 8 Desktop Runtime x64**<br>
+Open Powershell and do:
+```powershell
+winget install Microsoft.DotNet.DesktopRuntime.8
+```
+or
+<a href="https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.31/windowsdesktop-runtime-8.0.31-win-x64.exe" rel="nofollow"><img src="https://camo.githubusercontent.com/ccb7ac3b628723e1292ef6049956f4b9a83ac4fbfa73f999a8ba4c388b93266c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f776e6c6f61642d2e4e6574253230382d707572706c653f7374796c653d666f722d7468652d6261646765266c696e6b3d68747470732533412532462532466275696c64732e646f746e65742e6d6963726f736f66742e636f6d253246646f746e657425324657696e646f77734465736b746f70253246382e302e333125324677696e646f77736465736b746f702d72756e74696d652d382e302e33312d77696e2d7836342e657865" alt=".NET 8 Download" data-canonical-src="https://img.shields.io/badge/Download-.Net%208-purple?style=for-the-badge" style="max-width: 100%;"></a>
+
 
 ## Quick Start
 
@@ -32,13 +43,12 @@ The **Inject DLL** button remains disabled until the process, architecture, mani
 
 ## Trusted DLLs List
 
-HMV Injector can only load trusted DLLs, but you are free to use any other injector to load DLLs, including mine.
-
+HMV Injector can only load trusted DLLs, but you are free to use any other injector to load DLLs, including mine<br>
 
 ### DragonSword Awakening
 - `DSTool.ABlock.dll`<br>*(Prevent Abnormal gameplay to close the game)* INCLUDED
 - `DSTool.dll`<br>*(MEGA CHEAT All in One)* Available [Here](https://github.com/lengkonglovelife/DStools-inject/releases)
-
+<br>
 ## Antivirus Notice
 
 Injection APIs are also used by malicious software, so heuristic detections remain possible, especially for unsigned binaries.
