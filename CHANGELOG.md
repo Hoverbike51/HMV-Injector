@@ -2,6 +2,13 @@
 
 All notable changes to HMV Injector are documented here.
 
+## [1.2.1] - 2026-10-07
+
+- a compact version badge in the title bar;
+- a startup check against the latest public GitHub release tag;
+- a contextual **GitHub** or glowing **UPDATE** shortcut that opens only fixed repository URLs.
+- successful injection locks DLL selection and repeated injection for the active PID until it exits or the injector restarts.
+
 ## [1.2.0] - 2026-10-07
 
 ### Added
