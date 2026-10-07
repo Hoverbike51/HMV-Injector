@@ -10,13 +10,13 @@ A .NET 8 Windows injector using a Control Panel design. It only accepts DLLs lis
 
 ## Features
 
-- executable selection and active-process detection;
-- target selection lock while its PID is running;
+- Executable selection and active-process detection;
+- Target selection lock while its PID is running;
 - x64 architecture validation;
 - SHA-256 and ECDSA P-256 manifest-signature verification;
-- explicit `LoadLibraryW` injection;
-- lightweight single-EXE publishing;
-- local timestamped `HoverMods.DLLInjector.log` file;
+- Explicit `LoadLibraryW` injection;
+- Lightweight single-EXE publishing;
+- Local timestamped `HoverMods.DLLInjector.log` file;
 - HoverMods Vault branding and a subtle optional visual enhancement.
 
 The **Inject DLL** button remains disabled until the process, architecture, manifest, and exact hash have been validated.
