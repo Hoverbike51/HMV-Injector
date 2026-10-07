@@ -46,11 +46,13 @@ or
 HMV Injector can only load trusted DLLs, but you are free to use any other injector to load DLLs, including mine<br>
 
 ### DragonSword Awakening
-- `DSTool.ABlock.dll`<br>*(Prevent Abnormal gameplay to close the game)* INCLUDED
-- `DSTool.dll`<br>*(MEGA CHEAT All in One)* Available [Here](https://github.com/lengkonglovelife/DStools-inject/releases)
-<br>
+- `DSTool.ABlock.dll`<br>*(Prevent Abnormal gameplay to close the game)* **INCLUDED**
+- `DSTool.dll`<br>*(MEGA CHEAT All in One)* Available [Here](https://github.com/lengkonglovelife/DStools-inject/releases)<br>
+
 ## Antivirus Notice
 
 Injection APIs are also used by malicious software, so heuristic detections remain possible, especially for unsigned binaries.
 
 See [CHANGELOG.md](CHANGELOG.md) for the version history.
+
+---
