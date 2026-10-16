@@ -45,10 +45,12 @@ or
 
 HMV Injector can only load trusted DLLs, but you are free to use any other injector to load DLLs, including mine<br>
 
+### General Tools
+- `Dumper-7.dll` <br> SDK Generator for all Unreal Engine games. Supported versions are all of UE4 and UE5. Available [Here](https://github.com/Encryqed/Dumper-7/releases)
+
 ### DragonSword Awakening
 - `DSTool.ABlock.dll`<br>*(Prevent Abnormal gameplay to close the game)* **INCLUDED**
 - `DSTool.dll`<br>*(MEGA CHEAT All in One)* Available [Here](https://github.com/lengkonglovelife/DStools-inject/releases)<br>
-- `Dumper-7.dll` <br> SDK Generator for all Unreal Engine games. Supported versions are all of UE4 and UE5. Available [Here](https://github.com/Encryqed/Dumper-7/releases)
 
 ## Antivirus Notice
 
